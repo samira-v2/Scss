@@ -1,0 +1,42 @@
+// font weight
+$fw-reg:400;
+$fw-med:500;
+$fw-lag:900;
+
+//colors
+$d-black:#25272f;
+$d-grey:#bdc6c9;
+$l-grey:#f3f2f7;
+$d-pink:#ff487c;
+$d-blue:#202833;
+$green:#a3cf6c;
+$l-blue:#00be9f;
+$orange:#e98659;
+$deep-grey:#848d94;
+$l-red:red;
+$white:white;
+$silver:#D8D8D8;
+
+//font size
+$f-54:54px;
+$f-48:48px;
+$f-36:36px;
+$f-32:32px;
+$f-21:21px;
+$f-16:16px;
+$f-12:12px;
+$f-10:10px;
+
+//window size
+$vs-up: '(min-width: 420px)';
+$xs-up: '(min-width: 576px)';
+$sm-up: '(min-width: 768px)';
+$md-up: '(min-width: 992px)';
+$lg-up: '(min-width: 1200px)';
+$xl-up: '(min-width: 1500px)';
+$xl-down: '(max-width: 1499px)';
+$lg-down: '(max-width: 1199px)';
+$md-down: '(max-width: 991px)';
+$sm-down: '(max-width: 767px)';
+$xs-down: '(max-width: 575px)';
+$vs-down: '(max-width: 419px)';

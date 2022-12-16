@@ -1,0 +1,89 @@
+// -- used for footer links, slider links, milestone circle images, cards, navbar links
+  .space{
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+// -- 
+
+// .. used for logo img, bars img, card img, slider img
+  .img-w-h{
+      width: 30px;
+      height: 30px;
+  }
+
+  //used for who-we-are img, achievement img, three card img, contact us img
+  .sec-img{
+    width: 100%;
+    object-fit: cover;
+  }
+// .. 
+
+// -- used for section2 btn, who-we-are btn, slider btn, contact us btn
+  .btn{
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-color: $d-pink;
+    background: transparent;
+    padding: 15px;
+    width: 200px;
+    @media #{$xs-down} {
+        width: 150px;
+    }
+  }
+  .btn:hover{
+    color: $l-grey;
+    background-color: $d-pink;
+  }
+// -- 
+
+// .. 
+.bg-l-grey{
+    background-color: $l-grey;
+}
+.bg-d-blue{
+    background-color: $d-blue;
+}
+// .. 
+
+// -- 
+.text-up{
+    text-transform: uppercase;
+}
+.text-l-grey{
+    color: $l-grey;
+}
+.text-d-grey{
+    color: $deep-grey;
+}
+.text-d-black{
+    color: $d-black;
+}
+.text-center{
+    text-align: center;
+}
+.text-pink{
+    color: $d-pink;
+}
+.text-silver{
+    color: $silver;
+}
+// -- 
+
+
+// .. used for section2 dots, who-we-are text, achievement text and table,milestone, slider, three card, contact us
+.margin-bot{
+    margin-bottom: 20px;
+    @media #{$lg-down} {
+        margin-bottom: 10px;
+    }
+}
+
+//used for milestone, contact us
+.mob-margin-bot{
+    @media #{$md-down} {
+        margin-bottom: 10px;
+    } 
+}
+// .. 
